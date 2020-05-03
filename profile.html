@@ -18,6 +18,17 @@
   <link href="./assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
+
+  <style>
+    .parent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+
+  </style>
 </head>
 
 <body class="">
@@ -116,79 +127,66 @@
         </div>
       </nav>
       <!-- End Navbar -->
-      <div class="panel-header panel-header-sm">
+      <div class="panel-header panel-header-lg">
+        <div class="container">
+          <div class="row">
+            <div class="parent col-md-4">
+                <img style="height: 70%; width: 60%;" class="rounded-circle" alt="100x100" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                data-holder-rendered="true">
+              <h5 style="color: antiquewhite;">FirstName LastName</h5>
+            </div>
+
+
+            <div class="col-md-8">
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class=" text-info">
+                        <th>
+                          Column 1
+                        </th>
+                        
+                        <th class="text-right">
+                          Column 2
+                        </th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            data
+                          </td>
+                          
+                          <td class="text-right">
+                            data
+                          </td>
+                        </tr>
+                        <tr>
+                          
+                          <td>
+                            data
+                          </td>
+                          <td class="text-right">
+                            data
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            data
+                          </td>
+                          <td class="text-right">
+                            data
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="content">
         <div class="row">
-          <div class="col-md-4">
-            <div class="card card-user">
-              <div class="image">
-                <img src="../assets/img/bg5.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <div class="author">
-                  <a href="#">
-                    <img class="avatar border-gray" src="../assets/img/mike.jpg" alt="...">
-                    
-                  </a>
-                 
-                </div>
-                <h5 style="margin-top: 20%;" class="title text-center">Randon Name</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-8">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="title">Table 1</h5>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead class=" text-info">
-                      <th>
-                        Column 1
-                      </th>
-                      
-                      <th class="text-right">
-                        Column 2
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          data
-                        </td>
-                        
-                        <td class="text-right">
-                          data
-                        </td>
-                      </tr>
-                      <tr>
-                        
-                        <td>
-                          data
-                        </td>
-                        <td class="text-right">
-                          data
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          data
-                        </td>
-                        <td class="text-right">
-                          data
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
